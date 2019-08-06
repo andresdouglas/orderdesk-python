@@ -1,4 +1,4 @@
-from base import OrderDeskBaseClient
+from orderdesk.base import OrderDeskBaseClient
 
 
 class TestClient(OrderDeskBaseClient):
