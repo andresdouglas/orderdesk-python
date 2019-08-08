@@ -33,7 +33,8 @@ class OrderDeskBaseClient(object):
         else:
             return {
                 'status': 'error',
-                'message': 'HTTP %s' % response.status_code,
+                'status_code': 'HTTP %s' % response.status_code,
+                'response': response.json(),
             }
 
     def get(self, method, data={}):
