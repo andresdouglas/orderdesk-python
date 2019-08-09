@@ -13,7 +13,7 @@ packages = [
     'orderdesk',
 ]
 
-requires = []
+requires = ['requests==2.22.0']
 
 version = ''
 with open('orderdesk/__init__.py', 'r') as fd:
